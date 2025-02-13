@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <!-- Link para o CSS do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Garantir que o rodapé fique na parte inferior */
+        html, body {
+            height: 100%;
+        }
+        .content {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column">
+
+    <!-- Navbar (Cabeçalho) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Meu Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="serviços.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Sobre -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4">Sobre Nós</h1>
+                <p class="lead">Nossa missão é fornecer soluções inovadoras para nossos clientes, com foco em qualidade e excelência. Fundada em 2020, nossa empresa cresceu rapidamente graças ao compromisso com os nossos valores e à dedicação dos nossos colaboradores.</p>
+                <p>Somos apaixonados pelo que fazemos e buscamos transformar o mercado com nossos produtos e serviços. Estamos sempre em busca de novas ideias e melhorias para oferecer a melhor experiência para os nossos clientes.</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
